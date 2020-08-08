@@ -5,9 +5,9 @@ const express               = require('express'),
       bodyParser            = require("body-parser"),
       methodOverride        = require("method-override"),
       flash                 = require("connect-flash");
-      Campground            = require("./models/campground"), // require campground.js 以取得 Campground model !!
-      Comment               = require("./models/comment"), // require comment.js 以取得 Comment model !!
-      seedDB                = require("./seeds"), // require seeds.js 以取得 seedDB function !!
+      Campground            = require("./models/campground"), 
+      Comment               = require("./models/comment"), 
+      seedDB                = require("./seeds"), 
       passport              = require("passport"),
       LocalStrategy         = require("passport-local"),
       passortLocalMongoose  = require("passport-local-mongoose");
@@ -33,7 +33,7 @@ mongoose.connect('mongodb://localhost:27017/yelp_camp_vDeployed', { // connect t
 .catch(error => console.log(error.message));
 
 
-//seedDB(); /* 執行 seedDB function */
+//seedDB();
 
 
 // PASSPORT CONFIGURATION
