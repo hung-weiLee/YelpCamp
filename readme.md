@@ -1,5 +1,9 @@
 # YelpCamp
-* Add Landing Page(登陸頁面)
+* YelpCamp is a Node.js web application with RESTful routing project from the Udemy course - The Web Developer Bootcamp by Colt Steele
+
+
+# Landing Page
+* Add Landing Page
 * Add Campgrounds Page that lists all campgrounds
 * Each Campground has :
     * Name
